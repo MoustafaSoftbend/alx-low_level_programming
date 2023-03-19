@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o "./m0x00-hello_worl/main.o"
+gcc -c $CFILE -o "./main.o"
