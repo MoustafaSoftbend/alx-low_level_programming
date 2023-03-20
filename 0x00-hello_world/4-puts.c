@@ -2,10 +2,8 @@
 int main(void)
 /**
  * main - Entry point
- * 
  * Description: 'function that prints output to the console'
- * @parameter: no params
- * 
+ * @parameter: no params 
  * Return: Always 0 (Success)
  */
 {
