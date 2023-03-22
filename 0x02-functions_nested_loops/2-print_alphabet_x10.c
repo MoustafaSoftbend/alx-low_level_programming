@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point for the program
+ * print_alphabet_x10 - prints 10x the alphabet
  *
  * Return: Always 0 (Success)
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
-	for (i = 0; i < 10, i++)
+	int i;
+	for (i = 0; i < 10; i++)
 	{
 		print_alphabet();
 	}
-	return (0);
 }
 
 
