@@ -6,10 +6,21 @@ read -p "Enter pathname:" path
 
 # Create the file with the given name and add a shebang line
 touch "./$path/$script_name"
-echo "#!/bin/bash" > "./$path/$script_name"
+echo "
+#include <stdio.h>
 
-# Make the file executable
-chmod a+x "./$path/$script_name"
+/**
+ * main - Entry point for the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	/* Your code here */
+	return (0);
+}
+
+" > "./$path/$script_name"
 
 # Open the file in the default text editor
 vi "./$path/$script_name"
