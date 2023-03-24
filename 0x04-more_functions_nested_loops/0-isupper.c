@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int int_isupper(int c)
+int _isupper(int c)
 {
 	int r;
 
