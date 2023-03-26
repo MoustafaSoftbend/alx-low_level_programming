@@ -5,6 +5,8 @@
 /**
  * print_last_digit - Entry point for the program
  *
+ * @n: The number to get the last digit from
+ *
  * Return: Always 0 (Success)
  */
 int print_last_digit(int n)
