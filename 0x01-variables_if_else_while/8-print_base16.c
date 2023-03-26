@@ -7,11 +7,15 @@
  */
 int main(void)
 {
-	int i;
+	int num = 0;
 
-	for (i = 122; i >= 97; i--)
+	while (num < 16)
 	{
-		putchar(i);
+		if (num < 10)
+			putchar(num + '0');
+		else
+			putchar(num - 10 + 'a');
+		num++;
 	}
 	putchar('\n');
 	return (0);
