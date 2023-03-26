@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * main - Entry point for the program
+ * _isupper - Entry point for the program
  *
  * Return: Always 0 (Success)
  */
