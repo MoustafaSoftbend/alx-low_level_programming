@@ -3,6 +3,7 @@ int _putchar(char a);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int);
+void jack_bauer(void);
 int print_last_digit(int);
 int print_sign(int n);
 void print_alphabet(void);
