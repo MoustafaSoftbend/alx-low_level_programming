@@ -4,6 +4,8 @@
 /**
  * _isupper - Entry point for the program
  *
+ * @c: param that takes integer as an input
+ *
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
