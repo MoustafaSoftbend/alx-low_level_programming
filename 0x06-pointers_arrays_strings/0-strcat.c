@@ -2,11 +2,11 @@
 #include "string.h"
 
 /**
- * *_strcat - concatenate two strings
+ * _strcat - Concatenates two strings.
+ * @dest: Pointer to the destination string.
+ * @src: Pointer to the source string.
  *
- * @params: dest for destination pointer, src for source
- *
- * Return: Always 0 (Success)
+ * Return: Pointer to the resulting string dest.
  */
 char *_strcat(char *dest, char *src)
 {
