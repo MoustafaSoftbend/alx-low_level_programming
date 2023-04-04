@@ -3,8 +3,7 @@
 
 /**
  * main - tests the positive_or_negative function with an input of 0
- * @params: void
- *
+ * 
  * Return: 0
  */
 int main(void)
